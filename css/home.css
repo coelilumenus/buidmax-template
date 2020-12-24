@@ -1,0 +1,109 @@
+.home {
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation menu */
+.home__navigation {
+    display: flex;
+    min-width: 460px;
+    margin-top: 48px;
+    margin-bottom: 66px;
+    margin-left: 828px;
+}
+
+.home__navigation-item {
+    margin: auto 18px;
+    font-family: Poppins, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+    color: black;
+}
+
+.home__navigation-item:last-of-type {
+    text-align: center;
+    box-sizing: border-box;
+    padding: 8px 0;
+    width: 117px;
+    height: 40px;
+    margin: auto 0;
+    color: white;
+    background-color: #E6A859;
+}
+
+/* home section left */
+.home-section {
+    display: flex;
+}
+
+.home__description {
+    width: 642px;
+    height: 325px;
+    padding: 0;
+    margin: 86px 27px 0 159px;
+}
+
+.home__description-title {
+    font-family: Raleway, sans-serif;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 65px;
+    color: #534847;
+    margin-bottom: 35px;
+    text-align: left;
+}
+
+.home__description-title span {
+    color: #E2B84C;
+}
+
+.home__description-small {
+    font-family: Poppins, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 450px;
+    color: #8D8180;
+    margin-bottom: 65px;
+}
+
+.home__description-more {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #E2B84C;
+    text-decoration: none;
+}
+
+.home__description-more img {
+    vertical-align: middle;
+    margin-right: 12px;
+}
+
+/* home section right */
+.home__background {
+    width: 612px;
+    height: 773px;
+}
+
+/* home section svg's */
+
+.home-section::before {
+    display: block;
+    content: "";
+    width: 164px;
+    height: 164px;
+    background-image: url('../images/home/circle-big.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 230px;
+}
