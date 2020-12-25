@@ -47,6 +47,7 @@
 .about__description {
     width: 609px;
     margin-top: 271px;
+    position: relative;
 }
 
 .about__description-item {
@@ -77,3 +78,28 @@
 }
 
 /* decoration svg */
+.about__description::before {
+    display: block;
+    content: "";
+    width: 103px;
+    height: 103px;
+    background-image: url('../images/about/circle.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 556px;
+    top: -172px;
+}
+
+.about__description::after {
+    display: block;
+    content: "";
+    width: 59px;
+    height: 204px;
+    background-image: url('../images/about/circles.svg');
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: -661px;
+    bottom: 20px;
+}

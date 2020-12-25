@@ -3,6 +3,8 @@
 /* sections */
 @import url('home.css');
 @import url('about.css');
+@import url('more.css');
+@import url('services.css');
 
 /* other */
 @import url('container.css');
