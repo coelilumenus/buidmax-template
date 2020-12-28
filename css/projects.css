@@ -13,9 +13,9 @@
 /* items */
 .project__items {
     display: flex;
-    margin: 64px auto 139px auto;
+    margin: 64px auto 139px auto; /* margin-bottom is a part of the section's size */
     justify-content: center;
-}
+} 
 
 .project__items p {
     position: absolute;
