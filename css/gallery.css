@@ -4,8 +4,8 @@
 
 /* title */
 .gallery__title {
-    margin: 82px 0 0 180px;
-    padding: 0;
+    margin: 0 0 0 180px;
+    padding: 81px 0 0 0;
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: 50% 50%;

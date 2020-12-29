@@ -1,0 +1,224 @@
+@media (min-width: 1400px) {
+    .footer {
+        width: 100%;
+    }
+}
+
+.footer {
+    width: max-content;
+    background-color: #282322;
+}
+
+.footer__container {
+    display: grid;
+    width: 1213px;
+    height: 557px;
+    grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 317px auto;
+    justify-content: space-evenly;
+}
+
+/* about */
+.footer__about {
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.footer__about-title {
+    margin-top: 82px;
+    margin-left: 55px;
+    margin-bottom: 53px;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    color: white;
+}
+
+.footer__about-description {
+    margin-left: 55px;
+    width: 320px;
+    height: 99px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    position: relative;
+}
+
+.footer__about-description::before {
+    display: inline-block;
+    content: "";
+    background-image: url(../images/home/rectangle.svg);
+    width: 25px;
+    height: 1px;
+    vertical-align: middle;
+    margin-left: -40px;
+    margin-right: 15px;
+    margin-top: -10px;
+}
+
+/* subcription */
+.footer__subscription {
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.footer__subscription-title {
+    margin-top: 82px;
+    margin-bottom: 53px;
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    color: white;
+}
+
+.footer__subscription-form label {
+    margin: 0;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: white;
+}
+
+.footer__subscription-input {
+    margin-top: 14px;
+    width: 289px;
+    height: 47px;
+}
+
+.footer__subscription-input::placeholder {
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: #534847;
+    box-sizing: border-box;
+}
+
+.footer__subscription-submit {
+    width: 297px;
+    height: 47px;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 17px;
+    background-color: #E6A859;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    border: none;
+}
+
+/* social */
+.footer__social {
+    grid-row: 1;
+    grid-column: 3;
+}
+
+.footer__social-title {
+    margin-top: 82px;
+    margin-bottom: 53px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+    text-align: left;
+    color: white;
+}
+
+.footer__social a {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+    width: 193px;
+    height: 23px;
+    display: inline-block;
+    margin-bottom: 5px;
+    padding-bottom: 16px;
+    vertical-align: middle;
+}
+
+.footer__social img {
+    vertical-align: middle;
+}
+
+.footer__social-fb img {
+    width: 11px;
+    height: 23px;
+    padding-left: 5px;
+    margin-right: 28px;
+}
+
+.footer__social-tw img {
+    width: 25px;
+    height: 21px;
+    margin-right: 20px;
+}
+
+.footer__social-inst img {
+    width: 23px;
+    height: 23px;
+    margin-right: 22px;
+}
+
+.footer__social-yout img {
+    width: 24px;
+    height: 16px;
+    margin-right: 21px;
+}
+
+/* rights and navigation */
+.footer__bottom {
+    grid-row: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer__bottom-rights {
+    margin-top: 101px;
+    text-align: center;
+    color: white;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer__navigation {
+    width: 365px;
+    margin: 29px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__navigation-item {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+    color: rgb(255 255 255 / 60%);
+}
