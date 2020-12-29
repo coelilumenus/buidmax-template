@@ -1,12 +1,12 @@
+.footer {
+    width: max-content;
+    background-color: #282322;
+}
+
 @media (min-width: 1400px) {
     .footer {
         width: 100%;
     }
-}
-
-.footer {
-    width: max-content;
-    background-color: #282322;
 }
 
 .footer__container {
