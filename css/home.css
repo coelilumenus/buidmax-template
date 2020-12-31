@@ -84,7 +84,7 @@
     text-decoration: none;
 }
 
-.home__description-more img {
+.home__description-more svg {
     vertical-align: middle;
     margin-right: 12px;
 }
@@ -118,7 +118,7 @@
     text-decoration: none;
 }
 
-.home__background-block img {
+.home__background-block svg {
     display: inline-block;
     vertical-align: middle;
     margin-left: 6px;

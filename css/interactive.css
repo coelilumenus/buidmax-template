@@ -1,0 +1,130 @@
+/* navigation */
+.home__navigation-item:not(:last-child):hover {
+  color: #df912d !important;
+}
+
+.home__navigation-item:not(:last-child):active {
+  color: #bd761c !important;
+}
+
+.home__navigation-item:last-child:hover {
+  background-color: #df912d !important;
+}
+
+.home__navigation-item:last-child:active {
+  background-color: #bd761c !important;
+}
+
+/* home */
+.home__description-more {
+  fill: #f3d6b2;
+}
+
+.home__description-more:hover {
+  fill: #df912d !important;
+}
+
+.home__description-more:active {
+  fill: #bd761c !important;
+}
+
+.home__description-more:hover {
+  color: #df912d !important;
+}
+
+.home__description-more:active {
+  color: #bd761c !important;
+}
+
+.home__background-block a {
+  fill: #534847;
+}
+
+.home__background-block:hover {
+  background-color: #e0e0e0 !important;
+}
+
+.home__background-block:active {
+  background-color: #c6c6c6 !important;
+}
+
+.home__background-block:hover {
+  color: #38302f !important;
+}
+
+.home__background-block:active {
+  color: #1c1818 !important;
+}
+
+/* more */
+.more__item-1-descriptionButton:hover,
+.more__item-2-descriptionButton:hover {
+  background-color: #df912d !important;
+}
+
+.more__item-1-descriptionButton:active,
+.more__item-2-descriptionButton:active {
+  background-color: #bd761c !important;
+}
+
+/* services */
+.services__item-1 {
+  fill: #E6A859;
+}
+
+.services__item-1:hover .services__item-title {
+  color: #E6A859;
+}
+
+.services__item-2 {
+  fill: #E6A859;
+}
+
+.services__item-2:hover .services__item-title {
+  color: #E6A859;
+}
+
+.services__item-3 {
+  fill: #E6A859;
+}
+
+.services__item-3:hover .services__item-title {
+  color: #E6A859;
+}
+
+/* footer */
+.footer__subscription-submit:hover {
+  background-color: #df912d !important;
+}
+
+.footer__subscription-submit:active {
+  background-color: #bd761c !important;
+}
+
+.footer__social a {
+  fill: white;
+}
+
+.footer__social a:hover {
+  fill: #ecbf86 !important;
+}
+
+.footer__social a:active {
+  fill: #e5a75a !important;
+}
+
+.footer__social a:hover {
+  color: #ecbf86 !important;
+}
+
+.footer__social a:active {
+  color: #e5a75a !important;
+}
+
+.footer__navigation a:hover {
+  color: #ecbf86 !important;
+}
+
+.footer__navigation a:active {
+  color: #e5a75a !important;
+}

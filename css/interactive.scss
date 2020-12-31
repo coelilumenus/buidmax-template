@@ -1,0 +1,84 @@
+@mixin link($color, $isBack: false, $isSvg: false) {
+    &:hover {
+        @if $isBack {
+            background-color: darken($color, 10%) !important;
+        } @else if $isSvg {
+            fill: darken($color, 10%) !important;
+        } @else {
+            color: darken($color, 10%) !important;
+        }
+    }
+    &:active {
+        @if $isBack {
+            background-color: darken($color, 20%) !important;
+        } @else if $isSvg {
+            fill: darken($color, 20%) !important;
+        } @else {
+            color: darken($color, 20%) !important;
+        }
+    }
+}
+
+$lightGold: #E6A859;
+$lightenGold: #f3d6b2;
+$gray: #534847;
+$lightGray: #F9F9F9;
+
+/* navigation */
+.home__navigation-item {
+    &:not(:last-child) {
+        @include link($lightGold)
+    }
+    &:last-child {
+        @include link($lightGold, $isBack: true)
+    }
+}
+
+/* home */
+.home__description-more {
+    fill: $lightenGold;
+    @include link ($lightGold, $isSvg: true);
+    @include link ($lightGold);
+}
+
+.home__background-block {
+    & a {
+        fill: $gray;
+    }
+    @include link($lightGray, $isBack: true);
+    @include link($gray);
+}
+
+/* more */
+.more__item-1-descriptionButton,
+.more__item-2-descriptionButton {
+    @include link($lightGold, $isBack: true)
+}
+
+/* services */
+@for $i from 1 through 3 {
+    .services__item-#{$i} {
+        fill: $lightGold;
+        &:hover .services__item-title {
+            color: $lightGold;
+        }
+    }
+}
+
+/* footer */
+.footer__subscription-submit {
+    @include link($lightGold, $isBack: true);
+}
+
+.footer__social a {
+    fill: white;
+    @include link($lightenGold, $isSvg: true);
+    @include link($lightenGold);
+}
+
+.footer__navigation a {
+    @include link($lightenGold);
+}
+
+
+
